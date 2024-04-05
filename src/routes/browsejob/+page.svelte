@@ -1,3 +1,7 @@
+<script>
+    export let data;
+</script>
+
 <style>
     /* styles.css */
 .card {
@@ -22,32 +26,13 @@
 <p>This is place holder page for browse jobs</p>
 
 <div class="jobs">
-	<div class="card">
-		<div class="card-header">Card Header</div>
+{#each data.jobs as {title, company, location, salary, createdOn, description}}
+	<div class="card">		
+		<div class="card-header">{title}</div>
 		<div class="card-body">
-			<p>This is the content of the card.</p>
-			<button>Click me</button>
+			<h3>{company}</h3>
+			<p>{description}</p>
 		</div>
 	</div>
-    <div class="card">
-		<div class="card-header">Card Header</div>
-		<div class="card-body">
-			<p>This is the content of the card.</p>
-			<button>Click me</button>
-		</div>
-	</div>
-    <div class="card">
-		<div class="card-header">Card Header</div>
-		<div class="card-body">
-			<p>This is the content of the card.</p>
-			<button>Click me</button>
-		</div>
-	</div>
-    <div class="card">
-		<div class="card-header">Card Header</div>
-		<div class="card-body">
-			<p>This is the content of the card.</p>
-			<button>Click me</button>
-		</div>
-	</div>
+{/each}
 </div>

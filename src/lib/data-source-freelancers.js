@@ -1,0 +1,43 @@
+export const profiles = [
+    {
+        id: 1,
+        name: 'John Doe',
+        title: 'Full Stack Developer',
+        age: 30,
+        city: 'New York',
+        country: 'USA',
+        skills: ['HTML', 'CSS', 'JavaScript'],
+        rating: 4.5,
+        image: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    }, {
+        id: 2,
+        name: 'Jane Smith',
+        title: 'Backend Developer',
+        age: 25,
+        city: 'London',
+        country: 'UK',
+        skills: ['Python', 'SQL', 'Django'],
+        rating: 3.8,
+        image: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    }, {
+        id: 3,
+        name: 'Bob Johnson',
+        title: 'Software Developer',
+        age: 35,
+        city: 'Paris',
+        country: 'France',
+        skills: ['Java', 'Spring', 'Hibernate'],
+        rating: 4.2,
+        image: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    }, {
+        id: 4,
+        name: 'Sarah Lee',
+        title: '.NET Developer',
+        age: 28,
+        city: 'Tokyo',
+        country: 'Japan',
+        skills: ['C#', 'ASP.NET', 'Entity Framework'],
+        rating: 4.7,
+        image: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    }
+];
