@@ -20,7 +20,7 @@
   
   /* Header styles */
   header {
-    background: #f22;
+    background: #c5f6e7;
     color: #fff;
     padding: 20px 0;
   }
@@ -29,10 +29,10 @@
     font-size: 2em;
   }
   
-  /* Navigation styles */
+  /* Navigation styles
   nav {
-    background: #444;
-  }
+    background: #f4f4f4;
+  } */
   
   nav ul {
     list-style: none;
@@ -96,7 +96,7 @@
   
   /* Footer styles */
   footer {
-    background: #f22;
+    background: #17a2b8;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -107,9 +107,10 @@
 <header>
     <nav>
         <a href='/'>Home</a>
-        <a href='/whitepaper'>White Paper</a>
+        <a href='/postjob'>Post Job</a>
+        <a href='/browsejob'>Browse Job</a>
+        <a href='/browsefreelancer'>Browse Freelancer</a>
         <a href='/about'>About</a>
-        <a href='/contact'>Contact</a>
     </nav>
   </header>
 

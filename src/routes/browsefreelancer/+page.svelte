@@ -1,0 +1,1 @@
+<p>This is place holder page for browse freelancer</p>
